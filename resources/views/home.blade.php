@@ -67,7 +67,7 @@
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
                     <small>
-                        +234 907 390 9293
+                        +234 907 390 9293.
                     </small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
