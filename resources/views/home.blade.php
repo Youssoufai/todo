@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Al - Firdouse Humaniterian Foundation</title>
+    <title>VERSALINK</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
     @vite (['resources/css/app.css','resources/js/app.js'])
     <!-- Favicon -->
-    <link href="img/logo.png" rel="icon" />
+    <link href="img/4.png" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -66,19 +66,20 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+234 </small>
+                    <small>
+                        +234 907 390 9293
+                    </small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
+                    {{--        <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
+                            class="fab fa-facebook-f"></i></a> --}}
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/versalinkng?s=11"
+                        target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0"
+                        href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5" target="_blank"><i
                             class="fab fa-instagram"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
-                            class="fab fa-tiktok"></i></a>
+                    {{--        <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
+                            class="fab fa-tiktok"></i></a> --}}
                 </div>
             </div>
         </div>
@@ -99,16 +100,6 @@
                 <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                 <a href="{{ route('vdi') }}" class="nav-item nav-link">Vdi</a>
                 <a href="{{ route('podcast') }}" class="nav-item nav-link">Podcast</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="donate.html" class="dropdown-item">Donate</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -118,7 +109,7 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.avif" alt="" />
+                <img class="img-fluid bg-primary" src="img/4.png" alt="" />
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(53, 53, 53, 0.7)">
                     <div class="container">
@@ -130,54 +121,8 @@
                                 <h1 class="display-3 text-white animated slideInDown mb-4">
                                     VERSALINK
                                 </h1>
-                                <a href="about.html"
+                                <a href="{{ route('about') }}"
                                     class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="donate.html"
-                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">Donate</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(53, 53, 53, 0.7)">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
-                                    Welcome To
-                                </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">
-                                    VERSALINK
-                                </h1>
-                                <a href="about.html"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="donate.html"
-                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">Donate</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(53, 53, 53, 0.7)">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
-                                    Welcome To
-                                </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">
-                                    VERSALINK
-                                </h1>
-                                <a href="about.html"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="donate.html"
-                                    class="btn btn-light py-md-3 px-md-5 animated slideInRight">Donate</a>
                             </div>
                         </div>
                     </div>
@@ -196,8 +141,8 @@
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png"
-                            style="object-fit: cover" alt="" />
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover"
+                            alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -210,37 +155,7 @@
                             enterprise driven by a powerful idea: to create a ripple effect of positive change in
                             Nigeria. We achieve this by blending business success with social impact.
                         </p>
-                        <div class="row g-4 mb-4 pb-2">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-users fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">
-                                            1234
-                                        </h2>
-                                        <p class="fw-medium mb-0">Happy Services</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">
-                                            1234
-                                        </h2>
-                                        <p class="fw-medium mb-0">Assistance Made</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
+                        <a href="{{ route('vdi') }}" class="btn btn-primary py-3 px-5">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -401,7 +316,7 @@
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 p-4">
                                 <h5 class="mb-0">Alamin Tajudeen Abbas</h5>
-                                <small>CEO</small>
+                                <small>Chairman/Founder</small>
                             </div>
                         </div>
                     </div>
@@ -417,14 +332,14 @@
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 p-4">
                                 <h5 class="mb-0">Abba Ibrahim Jidda</h5>
-                                <small>Designation</small>
+                                <small>Vice Chairman</small>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item">
                             <div class="overflow-hidden position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="" />
+                                <img class="img-fluid" src="img/mj2.jpg" alt="" />
                                 <div class="team-social">
                                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -433,7 +348,7 @@
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 p-4">
                                 <h5 class="mb-0">Muhammad Jawwad Abdulkadir</h5>
-                                <small>Designation</small>
+                                <small>Head of VDI</small>
                             </div>
                         </div>
                     </div>
@@ -468,14 +383,15 @@
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-light mb-4">Address</h4>
                         <p class="mb-2">
-                            <i class="fa fa-map-marker-alt me-3"></i>123 Street, Abuja,
-                            Nigeria
+                            <i class="fa fa-map-marker-alt me-3"></i>NO25, B close, 3rd Avenue.
+                            Gwarinpa.
+                            Abuja.
                         </p>
                         <p class="mb-2">
-                            <i class="fa fa-phone-alt me-3"></i>+234 803 4567 890
+                            <i class="fa fa-phone-alt me-3"></i>+234 907 390 9293
                         </p>
                         <p class="mb-2">
-                            <i class="fa fa-envelope me-3"></i>info@example.com
+                            <i class="fa fa-envelope me-3"></i>versalink.ng@gmail.com
                         </p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i
@@ -484,8 +400,9 @@
                                     class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i
                                     class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i
-                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                     </div>
 
@@ -544,7 +461,27 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
 
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
+        <script>
+            function updateTime() {
+                const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+                const now = new Date();
+                const dayName = days[now.getDay()];
+                const hours = now.getHours();
+                const minutes = now.getMinutes();
+                const ampm = hours >= 12 ? 'PM' : 'AM';
+                const formattedHours = hours % 12 || 12;
+                const formattedMinutes = minutes.toString().padStart(2, '0');
+
+                $('#day').text(`${dayName} - `);
+                $('#time').text(`${formattedHours}:${formattedMinutes} ${ampm}`);
+            }
+
+            $(document).ready(function() {
+                setInterval(updateTime, 1000);
+                updateTime();
+            });
+        </script>
 </body>
 
 </html>

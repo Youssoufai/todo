@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Al - Firdouse Humaniterian Foundation</title>
+    <title>Versalink</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/logo.png" rel="icon" />
+    <link href="img/4.png" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,19 +60,20 @@
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+234 803 4567 890</small>
+                    <small>+234 907 390 9293</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
-                            class="fab fa-twitter"></i></a>
+                    {{-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
+                            class="fab fa-facebook-f"></i></a> --}}
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/versalinkng?s=11"
+                        target="_blank"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i
                             class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
+                    <a class="btn btn-sm-square bg-white text-primary me-0"
+                        href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5"><i
                             class="fab fa-instagram"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
-                            class="fab fa-tiktok"></i></a>
+                    {{--         <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i
+                            class="fab fa-tiktok"></i></a> --}}
                 </div>
             </div>
         </div>
@@ -92,7 +93,7 @@
                 <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
                 <a href="{{ route('vdi') }}" class="nav-item nav-link">Vdi</a>
-                <a href="{{ route('podcast') }}" class="nav-item nav-link">Podcast</a>
+                <a href="{{ route('podcast') }}" class="nav-item nav-link">Versalink post</a>
                 {{--  <a href="{{ route('project') }}" class="nav-item nav-link">Project</a> --}}
             </div>
         </div>
@@ -130,37 +131,7 @@
                             enterprise driven by a powerful idea: to create a ripple effect of positive change in
                             Nigeria. We achieve this by blending business success with social impact.
                         </p>
-                        <div class="row g-4 mb-4 pb-2">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-users fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">
-                                            1234
-                                        </h2>
-                                        <p class="fw-medium mb-0">Happy Services</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 60px; height: 60px">
-                                        <i class="fa fa-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">
-                                            1234
-                                        </h2>
-                                        <p class="fw-medium mb-0">Assistance Made</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
+                        <a href="{{ route('vdi') }}" class="btn btn-primary py-3 px-5">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +158,7 @@
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
                             <h5 class="mb-0">Alamin Tajudeen Abbas</h5>
-                            <small>CEO</small>
+                            <small>Chairman/Founder</small>
                         </div>
                     </div>
                 </div>
@@ -203,7 +174,7 @@
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
                             <h5 class="mb-0">Abba Ibrahim Jidda</h5>
-                            <small>Designation</small>
+                            <small>Vice Chairman</small>
                         </div>
                     </div>
                 </div>
@@ -219,7 +190,7 @@
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
                             <h5 class="mb-0">Muhammad Jawwad Abdulkadir</h5>
-                            <small>Designation</small>
+                            <small>Head of Versalink Development Intiative</small>
                         </div>
                     </div>
                 </div>
@@ -235,7 +206,7 @@
                         </div>
                         <div class="text-center border border-5 border-light border-top-0 p-4">
                             <h5 class="mb-0">Muhammad Alkali</h5>
-                            <small>Designation</small>
+                            <small></small>
                         </div>
                     </div>
                 </div>
@@ -251,31 +222,33 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2">
-                        <i class="fa fa-map-marker-alt me-3"></i>123 Street, Abuja,
-                        Nigeria
+                        <i class="fa fa-map-marker-alt me-3"></i>NO25, B close, 3rd Avenue.
+                        Gwarinpa.
+                        Abuja.
                     </p>
                     <p class="mb-2">
-                        <i class="fa fa-phone-alt me-3"></i>+234 803 4567 890
+                        <i class="fa fa-phone-alt me-3"></i>+234 907 390 9293
                     </p>
                     <p class="mb-2">
-                        <i class="fa fa-envelope me-3"></i>info@example.com
+                        <i class="fa fa-envelope me-3"></i>versalink.ng@gmail.com
                     </p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i
                                 class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.instagram.com/versalink.ng?igsh=YTF2cXFwMzBvdzZ5" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="index.html">Home</a>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="service.html">Our Services</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="{{ route('home') }}">Home</a>
+                    <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
+                    <a class="btn btn-link" href="{{ route('vdi') }}">VDI</a>
+                    <a class="btn btn-link" href="{{ route('podcast') }}">versalink post</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
@@ -325,6 +298,47 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var mediaElements = document.querySelectorAll('video, audio'),
+                total = mediaElements.length;
+
+            for (var i = 0; i < total; i++) {
+                new MediaElementPlayer(mediaElements[i], {
+                    pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                    shimScriptAccess: 'always',
+                    success: function() {
+                        var target = document.body.querySelectorAll('.player'),
+                            targetTotal = target.length;
+                        for (var j = 0; j < targetTotal; j++) {
+                            target[j].style.visibility = 'visible';
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var mediaElements = document.querySelectorAll('video, audio'),
+                total = mediaElements.length;
+
+            for (var i = 0; i < total; i++) {
+                new MediaElementPlayer(mediaElements[i], {
+                    pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                    shimScriptAccess: 'always',
+                    success: function() {
+                        var target = document.body.querySelectorAll('.player'),
+                            targetTotal = target.length;
+                        for (var j = 0; j < targetTotal; j++) {
+                            target[j].style.visibility = 'visible';
+                        }
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
